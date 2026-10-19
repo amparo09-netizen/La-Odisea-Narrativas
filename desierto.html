@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>El páramo | Odisea</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header>
+    <h1>El páramo de los muertos</h1>
+  </header>
+  <main>
+    <h2>Odiseo y las sombras</h2>
+    <figure>
+      <img src="img/desierto.jpg" width="1000" height="563" alt="Un páramo de arena clara bajo un cielo gris; al fondo, montañas cubiertas de niebla y a la derecha una gran roca oscura.">
+      <figcaption>El páramo, donde la niebla cubre las montañas.</figcaption>
+    </figure>
+    <p>Odiseo avanza solo por la arena fría. La niebla se abre y, entre las rocas, aparecen figuras que caminan hacia él: Euríloco, Elpénor, los compañeros que el mar y los monstruos se llevaron. Tienen los rostros pálidos como la ceniza y los pasos no dejan huellas.</p>
+    <p>Quiere abrazarlos, pero sus brazos atraviesan el aire. Una de las sombras habla con una voz que parece el viento: «Capitán, todavía te queda mar por delante. Elige bien el camino, porque ya no podemos remar contigo».</p>
+    <div class="ambiente">
+      <audio id="musica" loop autoplay preload="auto">
+        <source src="audio/ambiente.mp3" type="audio/mpeg">
+      </audio>
+      <p><button type="button" id="btn-musica">Silenciar música ambiente</button> · <a href="https://pixabay.com/es/music/ambiente-mysterious-585275/" target="_blank" rel="noopener">Música: Pixabay</a></p>
+    </div>
+    <h2>El camino se parte en dos</h2>
+    <nav>
+      <ul>
+        <li><a href="sirenas.html">Seguir el canto lejano que viene de la costa</a></li>
+        <li><a href="ciclope.html">Volver hacia la cueva del acantilado</a></li>
+      </ul>
+    </nav>
+    <nav class="volver"><p><a href="index.html">Reiniciar la historia</a></p></nav>
+  </main>
+  <footer>
+    <p>Ficción interactiva basada en La Odisea · Amparo Segovia · <a href="https://www.instagram.com/ampisegovia/" target="_blank" rel="noopener">Instagram @ampisegovia</a></p>
+  </footer>
+  <script src="musica.js"></script>
+</body>
+</html>

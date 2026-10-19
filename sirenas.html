@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Las sirenas | Odisea</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header>
+    <h1>El canto de las sirenas</h1>
+  </header>
+  <main>
+    <h2>Una isla de voces</h2>
+    <p>Odiseo llega a la costa y encuentra una barca pequeña. Mientras se aleja de la orilla, una melodía flota sobre el agua: voces de mujeres que conocen su nombre, su casa, el rostro de Penélope. Prometen contarle todo lo que ha ocurrido en el mundo.</p>
+    <p>Recuerda la advertencia de las sombras. Tiene un trozo de cera en el bolsillo y una cuerda áspera junto al mástil.</p>
+    <div class="ambiente">
+      <audio id="musica" loop autoplay preload="auto">
+        <source src="audio/ambiente.mp3" type="audio/mpeg">
+      </audio>
+      <p><button type="button" id="btn-musica">Silenciar música ambiente</button> · <a href="https://pixabay.com/es/music/ambiente-mysterious-585275/" target="_blank" rel="noopener">Música: Pixabay</a></p>
+    </div>
+    <h2>¿Qué decide?</h2>
+    <nav>
+      <ul>
+        <li><a href="itaca.html">Taparse los oídos con cera y atarse al mástil</a></li>
+        <li><a href="naufragio.html">Escuchar sin protección y dejarse llevar</a></li>
+      </ul>
+    </nav>
+    <nav class="volver"><p><a href="desierto.html">Volver al páramo</a> · <a href="index.html">Reiniciar la historia</a></p></nav>
+  </main>
+  <footer>
+    <p>Ficción interactiva basada en La Odisea · Amparo Segovia · <a href="https://www.instagram.com/ampisegovia/" target="_blank" rel="noopener">Instagram @ampisegovia</a></p>
+  </footer>
+  <script src="musica.js"></script>
+</body>
+</html>

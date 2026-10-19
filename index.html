@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>La playa | Odisea</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header>
+    <h1>Las cenizas de Troya</h1>
+  </header>
+  <main>
+    <h2>La playa</h2>
+    <p>El mar los escupió al amanecer. Los soldados de Ítaca caminan sin rumbo sobre una playa de arena gris, con las armaduras abolladas y la sal pegada a la barba. Nadie recuerda cuántos días lleva a la deriva. Nadie sabe qué costa es esta.</p>
+    <p>El cielo está cubierto de una ceniza fina que cae sin hacer ruido. Quizás es el humo de Troya, que los siguió a través del mar. Más allá de las dunas se ve una sombra baja entre la niebla, y hacia el acantilado, la boca oscura de una cueva.</p>
+    <div class="ambiente">
+      <audio id="musica" loop autoplay preload="auto">
+        <source src="audio/ambiente.mp3" type="audio/mpeg">
+      </audio>
+      <p><button type="button" id="btn-musica">Silenciar música ambiente</button> · <a href="https://pixabay.com/es/music/ambiente-mysterious-585275/" target="_blank" rel="noopener">Música: Pixabay</a></p>
+    </div>
+    <h2>¿Qué hacen?</h2>
+    <nav>
+      <ul>
+        <li><a href="desierto.html">Seguir las huellas hacia el páramo de niebla</a></li>
+        <li><a href="ciclope.html">Entrar en la cueva del acantilado</a></li>
+      </ul>
+    </nav>
+  </main>
+  <footer>
+    <p>Ficción interactiva basada en La Odisea · Amparo Segovia · <a href="https://www.instagram.com/ampisegovia/" target="_blank" rel="noopener">Instagram @ampisegovia</a></p>
+  </footer>
+  <script src="musica.js"></script>
+</body>
+</html>

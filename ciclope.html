@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>La cueva | Odisea</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header>
+    <h1>La cueva de Polifemo</h1>
+  </header>
+  <main>
+    <h2>Un gigante de un solo ojo</h2>
+    <p>Dentro de la cueva hay ovejas, quesos colgados y un fuego casi apagado. La piedra de la entrada rueda sola, o eso parece, y se cierra detrás de Odiseo. Del fondo surge una respiración enorme y un único ojo brilla en la oscuridad.</p>
+    <p>«¿Quién eres?», pregunta el gigante. Odiseo mira la estaca de olivo que hay junto a la pared y el odre de vino que trae consigo.</p>
+    <div class="ambiente">
+      <audio id="musica" loop autoplay preload="auto">
+        <source src="audio/ambiente.mp3" type="audio/mpeg">
+      </audio>
+      <p><button type="button" id="btn-musica">Silenciar música ambiente</button> · <a href="https://pixabay.com/es/music/ambiente-mysterious-585275/" target="_blank" rel="noopener">Música: Pixabay</a></p>
+    </div>
+    <h2>¿Qué le responde?</h2>
+    <nav>
+      <ul>
+        <li><a href="itaca.html">«Mi nombre es Nadie». Emborracharlo y cegarlo</a></li>
+        <li><a href="naufragio.html">Gritar su nombre verdadero y desafiarlo</a></li>
+      </ul>
+    </nav>
+    <nav class="volver"><p><a href="index.html">Reiniciar la historia</a></p></nav>
+  </main>
+  <footer>
+    <p>Ficción interactiva basada en La Odisea · Amparo Segovia · <a href="https://www.instagram.com/ampisegovia/" target="_blank" rel="noopener">Instagram @ampisegovia</a></p>
+  </footer>
+  <script src="musica.js"></script>
+</body>
+</html>
