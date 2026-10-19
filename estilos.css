@@ -18,7 +18,7 @@ body {
   background: radial-gradient(ellipse at top, #2a2826 0%, var(--fondo) 70%);
   color: var(--texto);
   font-family: "Karla", sans-serif;
-  font-size: 12px;
+  font-size: 18px;
   line-height: 1.8;
 }
 
@@ -72,12 +72,12 @@ body::after {
 header, main, footer {
   position: relative;
   z-index: 1;
-  max-width: 640px;
+  max-width: 780px;
   margin: 0 auto;
   padding: 0 24px;
 }
 
-header { padding-top: 56px; }
+header { padding-top: 64px; }
 main   { padding-bottom: 24px; }
 
 footer {
@@ -91,7 +91,7 @@ footer {
 h1 {
   font-family: "Brygada 1918", serif;
   font-weight: 600;
-  font-size: 48px;
+  font-size: 68px;
   line-height: 1.1;
   color: var(--titulo);
   margin: 0 0 8px;
@@ -101,21 +101,21 @@ h2 {
   font-family: "Brygada 1918", serif;
   font-weight: 400;
   font-style: italic;
-  font-size: 26px;
+  font-size: 36px;
   color: var(--subtitulo);
   margin: 32px 0 8px;
 }
 
 p {
   font-family: "Karla", sans-serif;
-  font-size: 12px;
+  font-size: 18px;
   color: var(--texto);
   margin: 0 0 14px;
 }
 
 a {
   font-family: "Karla", sans-serif;
-  font-size: 12px;
+  font-size: 18px;
   font-weight: 500;
   color: #d9cdb6;
   text-decoration: underline;
@@ -136,7 +136,7 @@ nav.volver { margin-top: 24px; }
 /* ----- Imagen y audio ----- */
 figure { margin: 24px 0; }
 figure img { display: block; width: 100%; height: auto; filter: saturate(.7) brightness(.85); }
-figcaption { margin-top: 6px; color: var(--subtitulo); font-size: 12px; font-style: italic; }
+figcaption { margin-top: 6px; color: var(--subtitulo); font-size: 15px; font-style: italic; }
 
 .ambiente { margin: 24px 0; }
 audio { width: 100%; filter: grayscale(1) opacity(.8); }
@@ -144,7 +144,7 @@ audio { width: 100%; filter: grayscale(1) opacity(.8); }
 /* Botón de música: se ve como un enlace */
 button {
   font-family: "Karla", sans-serif;
-  font-size: 12px;
+  font-size: 18px;
   font-weight: 500;
   color: #d9cdb6;
   background: none;
@@ -156,3 +156,5 @@ button {
   transition: color .2s ease;
 }
 button:hover, button:focus-visible { color: var(--rojo); }
+
+#aviso-musica { color: var(--rojo); }
